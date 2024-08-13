@@ -1,0 +1,93 @@
+<div>
+    <div class="container mt-5 mb-5" style="background-color: #FEF2E4; padding: 20px;">
+        <h2 class="text-center mb-4" style="color: #6E4B36;">Gestión de Usuarios</h2>
+        <div class="row">
+            <!-- Formulario derecho -->
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombreUsuario" class="form-label">Nombre Usuario:</label>
+                        <input type="text" class="form-control" id="nombreUsuario">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contraseña" class="form-label">Contraseña:</label>
+                        <input type="password" class="form-control" id="contraseña" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellidoPaterno" class="form-label">Apellido Paterno</label>
+                        <input type="text" class="form-control" id="apellidoPaterno">
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellidoMaterno" class="form-label">Apellido Materno</label>
+                        <input type="text" class="form-control" id="apellidoMaterno">
+                    </div>
+                    <div class="mb-3">
+                        <label for="estado" class="form-label">Estado:</label> 
+                        <input type="text" class="form-control" id="estado"> 
+                        
+                    </div>
+                    <div class="mb-3">
+                        <label for="ciudad" class="form-label">Ciudad:</label>
+                        <input type="text" class="form-control" id="ciudad">
+                    </div>
+                </form>
+            </div>
+            <!-- Formulario izquierdo -->
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="colonia" class="form-label">Colonia:</label>
+                        <input type="text" class="form-control" id="colonia">
+                    </div>
+                    <div class="mb-3">
+                        <label for="calle" class="form-label">Calle:</label>
+                        <input type="text" class="form-control" id="calle">
+                    </div>
+                    <div class="mb-3">
+                        <label for="codigoPostal" class="form-label">Código Postal:</label>
+                        <input type="text" class="form-control" id="codigoPostal">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Telefono:</label>
+                        <input type="tel" class="form-control" id="telefono">
+                    </div>
+                </form>
+            </div>
+            <form>
+                <br>
+                <div class="d-flex justify-content-center"> <!-- Botónes para agregar, eliminar y modificar un usuario -->
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionUsuarios.addUser();" id="btnAdd">Agregar</button>
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionUsuarios.deleteUser();" id="btnDelete">Eliminar</button>
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionUsuarios.updateUser();" id="btnUpdate">Modificar</button>
+                </div>
+                <br>
+                <div class="input-group mt-3"> <!-- Botón para buscar un usuario -->
+                    <input type="text" id="txtBusquedaUsuario" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" onclick="moduloGestionUsuarios.searchUser();">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </div> <!-- apartado para la tabla (usuarios registrados) -->
+    <div class="table-responsive" style="background-color: #FEF2E4; padding: 20px;">
+        <h2 class="text-center mb-4" style="color: #6E4B36;">Registro Usuarios</h2>
+        <table class="table usuario-table" style="color: #6E4B36;">
+            <thead>
+                <tr>
+                    <th>Nombre usuario</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Estado</th>
+                    <th>Ciudad</th>
+                    <th>Colonia</th>
+                    <th>Calle</th>
+                    <th>Código Postal</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody id="tblUsuarios">
+               
+            </tbody>
+        </table>
+    </div>
+</div>
+

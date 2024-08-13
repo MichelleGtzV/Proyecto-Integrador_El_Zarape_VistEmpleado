@@ -1,0 +1,103 @@
+<div>
+    <div class="container mt-5 mb-5" style="background-color: #FEF2E4; padding: 20px;">
+        <h2 class="text-center mb-4" style="color: #6E4B36;">Gestión Combos</h2>
+        <div class="row">
+            <!-- Formulario derecho -->
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombreCombo" class="form-label">Nombre Combo:</label>
+                        <input type="text" class="form-control" id="nombreCombo">
+                        <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="listAlimento" class="form-label">Alimento</label>
+                        <select id="listAlimento" class="form-select" required>
+                         <option value="Chilaquiles">Chilaquiles</option>
+                         <option value="Enmoladas">Enmoladas</option>
+                         <option value="Chiles en nogada">Chiles en nogada</option>
+                         <option value="Pozole">Pozole</option>
+                         <option value="Tamales">Tamales</option>
+                         <option value="Sincronizadas">Sincronizadas</option>
+                         <option value="Flautas con Papa">Flautas con Papa</option>
+                         <option value="Huevos Divorciados">Huevos Divorciados</option>
+                         <option value="Molletes">Molletes</option>
+                         <option value="Fritata de Papa con Queso">Fritata de Papa con Queso</option>
+                         <option value="Sopes">Sopes</option>
+                         <option value="Quesadillas">Quesadillas</option>
+                            </select>
+                        <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="listBebida" class="form-label">Bebida</label>
+                        <select id="listBebida" class="form-select" required>
+                         <option value="Jugo de naranja">Jugo de naranja</option>
+                         <option value="Jugo de betabel">Jugo de betabel</option>
+                         <option value="Agua de pepino">Agua de pepino</option>
+                         <option value="Agua de fresa">Agua de fresa</option>
+                         <option value="Champurrado">Champurrado</option>
+                         <option value="Cerveza">Cerveza</option>
+                         <option value="Cafe de olla">Cafe de olla</option>
+                         <option value="Agua de jamaica">Agua de jamaica</option>
+                         <option value="Agua de Horchata">Agua de Horchata</option>
+                         <option value="Cerveza negra">Cerveza negra</option>
+                         <option value="Michelada">Michelada</option>
+                         <option value="Tequila">Tequila</option>
+                            </select>
+                    </div>
+                </form>
+            </div>
+            <!-- Formulario izquierdo -->
+            <div class="col-md-6">
+                <form>
+                    <!-- Campos del formulario -->
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">Descripción</label>
+                          <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="precio" class="form-label">Precio:</label>
+                        <input type="number" class="form-control" id="precio">
+                    </div>
+                    <div class="mb-3">
+                        <label for="foto" class="form-label">Foto:</label>
+                        <input type="file" class="form-control" id="foto">
+                    </div>
+                </form>
+            </div>
+            <form>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionCombos.addCombo();" id="btnAdd">Agregar</button>
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionCombos.deleteCombo();" id="btnDelete">Eliminar</button>
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionCombos.updateCombo();" id="btnUpdate">Modificar</button>
+                </div>
+                <br>
+                <div class="input-group mt-3">
+                    <input type="text" id="txtBusquedaCombo" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" onclick="moduloGestionCombos.searchCombo();">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="table-responsive" style="background-color: #FEF2E4; padding: 20px;">
+        <h2 class="text-center mb-4" style="color: #6E4B36;">Registro Combos</h2>
+        <table class="table combo-table" style="color: #6E4B36;">
+            <thead>
+                <tr>
+                    <!-- Titulos de la tabla -->
+                    <th>Nombre Combo</th>
+                    <th>Alimento</th>
+                    <th>Bebida</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Foto</th>
+                </tr>
+            </thead>
+            <!-- Cuerpo de la tabla -->
+            <tbody id="tblCombos">
+            </tbody>
+        </table>
+    </div>
+
+</div>

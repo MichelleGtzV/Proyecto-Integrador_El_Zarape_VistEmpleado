@@ -1,0 +1,66 @@
+[
+    {
+        "nombre": "Sabor y Salud", 
+        "alimento": "Papa",
+        "bebida": "Jugo de Betabel",
+        "descripcion": "Incluye: Ingredientes: Papa, Huevo, Queso, Cebolla, Hierbas frescas o secas.", 
+        "precio": "190", 
+        "foto": "Imagenes/combo1.png"
+    },
+    {
+        "nombre": "Tradiciòn y Calor",  
+        "alimento": "Tamales",
+        "bebida": "Champurrado",
+        "descripcion": "Incluye: Tres tamales rojos", 
+        "precio": "100", 
+        "foto": "Imagenes/combo2.png"
+    },
+    {
+        "nombre": "Desayuno Festivo", 
+        "alimento": "Chilaquiles",
+        "bebida": "Cerveza",
+        "descripcion": "Incluye:Ingredientes: Totopos, Salsa verde o roja, Crema, Queso, Pollo", 
+        "precio": "250", 
+        "foto": "Imagenes/combo3.png"
+    },
+    {
+        "nombre": "Frescura Mexicana",
+        "alimento": "Sopes",
+        "bebida": "Agua de Pepino",
+        "descripcion": "Incluye:Ingredientes: Frijoles refritos, Lechuga, Carne, Queso, Salsa, Crema", 
+        "precio": "150",
+        "foto": "Imagenes/combo4.png"
+    },
+    {
+        "nombre": "Amanecer con Sabor", 
+        "alimento": "Huevos Divorciados",
+        "bebida": "Jugo de Naranja",
+        "descripcion": "Incluye:Ingredientes: Dos huevos fritos, Tortillas, Salsa, Frijoles, Queso, Crema", 
+        "precio": "170",
+        "foto": "Imagenes/combo5.png"
+    },
+    {
+        "nombre": "Tradición Dulce", 
+        "alimento": "Enmoladas",
+        "bebida": "Agua de Horchata",
+        "descripcion": "Incluye:Ingredientes: Mole, Queso, Tortilla, Pollo, Crema", 
+        "precio": "150", 
+        "foto": "Imagenes/combo6.png"
+    },
+    {
+        "nombre": "Delicias Mexicanas", 
+        "alimento": "Flautas",
+        "bebida": "Café de olla",
+        "descripcion": "Incluye:Ingredientes: Tortilla, Queso, Carne, Aderezos, Crema", 
+        "precio": "210", 
+        "foto": "Imagenes/combo7.png"
+    },
+    {
+        "nombre": "Duo Delicioso", 
+        "alimento": "Sincronizada",
+        "bebida": "Agua de Fresa",
+        "descripcion": "Incluye:Ingredientes: Tortilla de Harina, Queso, Jamón, Aguacate, Pico de gallo", 
+        "precio": "220", 
+        "foto": "Imagenes/combo8.png"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "nombreSucursal": "Sucursal Plaza Mayor",
+        "estado": "Guanajuato",
+        "ciudad": "León",
+        "calle": "Blvd. Juan Alonso de Torres",
+        "colonia": "Valle del Campestre",
+        "codigoPostal": "202999",
+        "gpsLatitud": "30°14′30″N",
+        "gpsLongitud": "3°42′27″O",
+        "horaAbierto": "9:00 A.M",
+        "horaCerrado": "1:00 P.M.",
+        "url": "---",
+        "foto": "Imagenes/restaurante2.jfif"
+    },
+    {
+        "nombreSucursal": "Sucursal Norte",
+        "estado": "Guanajuato",
+        "ciudad": "León",
+        "calle": "Blvd. Aeropuerto",
+        "colonia": "La pilarica",
+        "codigoPostal": "450069",
+        "gpsLatitud": "40°24′56″N",
+        "gpsLongitud": "2°22′37″1",
+        "horaAbierto": "8:00 A.M",
+        "horaCerrado": "2:00 P.M.",
+        "url": "---",
+        "foto": "Imagenes/restaurante1.jfif"
+    }
+]
+

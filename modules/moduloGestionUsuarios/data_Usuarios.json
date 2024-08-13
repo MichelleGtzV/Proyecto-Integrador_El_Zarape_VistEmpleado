@@ -1,0 +1,46 @@
+[
+    {
+        "nombre": "Paola",
+        "apellidoPaterno": "Rocha",
+        "apellidoMaterno": "Muñoz",
+        "estado": "Guanajuato",
+        "ciudad": "León",
+        "colonia": "Colonia Santa Maria",
+        "calle": "Mar Caspio",
+        "codigoPostal": "56222",
+        "telefono": "4772345123"
+    },
+    {
+        "nombre": "Itzel",
+        "apellidoPaterno": "Sanchez",
+        "apellidoMaterno": "Lopez",
+        "estado": "Jalisco",
+        "ciudad": "Guadalajara",
+        "colonia": "Colonia Villas de San Juan",
+        "calle": "Alfonso Capi",
+        "codigoPostal": "45000",
+        "telefono": "4773489133"
+    },
+    {
+        "nombre": "Diego",
+        "apellidoPaterno": "Martinez",
+        "apellidoMaterno": "Quintana",
+        "estado": "Guanajuato",
+        "ciudad": "León",
+        "colonia": "La noria",
+        "calle": "Las flores",
+        "codigoPostal": "222789",
+        "telefono": "4774401139"
+    },
+    {
+        "nombre": "Michelle",
+        "apellidoPaterno": "Gutierrez",
+        "apellidoMaterno": "Vazquez",
+        "estado": "Guanajuato",
+        "ciudad": "León",
+        "colonia": "Blvd Los naranjos",
+        "calle": "Los arboles",
+        "codigoPostal": "15428",
+        "telefono": "4778302341"
+    }
+]

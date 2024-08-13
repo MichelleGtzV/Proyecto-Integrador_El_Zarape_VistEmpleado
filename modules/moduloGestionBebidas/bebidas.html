@@ -1,0 +1,75 @@
+<div>
+    <div class="container mt-5 mb-5" style="background-color: #FEF2E4; padding: 20px;">
+        <h2 class="text-center mb-4" style="color: #6E4B36;">Gestión de Bebidas</h2>
+        <div class="row">
+            <!-- Formulario derecho -->
+            <div class="col-md-6">
+                <form id="bebidaForm">
+                    <div class="mb-3">
+                        <label for="NombreBebida" class="form-label">Nombre bebida</label>
+                        <input type="text" class="form-control" id="txtnombreBebida">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">Descripción</label>
+                        <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="listCategoria" class="form-label">Categoría</label>
+                        <select id="listCategoria" class="form-select" required>
+                            <option value="Seleccionar">Seleccionar</option>
+                            <option value="Jugo">Jugo</option>
+                            <option value="Bebida caliente">Bebida caliente</option>
+                            <option value="Refresco">Refresco</option>
+                            <option value="Agua fresca">Agua fresca</option>
+                            <option value="Bebida alcoholica">Bebida alcoholica</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <!-- Formulario izquierdo -->
+            <div class="col-md-6">
+                <form id="bebidaFormLeft">
+                    <!-- Campos del formulario -->
+                    <div class="mb-3">
+                        <label for="precio" class="form-label">Precio:</label>
+                        <input type="number" class="form-control" id="precio">
+                    </div>
+                    <div class="mb-3">
+                        <label for="foto" class="form-label">Foto:</label>
+                        <input type="file" class="form-control" id="foto">
+                    </div>
+                </form>
+            </div>
+            <form>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionBebidas.addBebida();" id="btnAdd">Agregar</button>
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionBebidas.deleteBebida();" id="btnDelete">Eliminar</button>
+                    <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionBebidas.updateBebida();" id="btnUpdate">Modificar</button>
+                </div>
+                <br>
+                <div class="input-group mt-3">
+                    <input type="text"  id="txtBusquedaBebida" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="button-addon2" >
+                    <button type="button" class="btn btn-outline-secondary" onclick="moduloGestionBebidas.searchBebida();">Buscar</button>
+                </div>
+            </form>
+        </div>
+        <!-- Tabla -->
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nombre bebida</th>
+                        <th>Descripción</th>
+                        <th>Categoría</th>
+                        <th>Precio</th>
+                        <th>Foto</th>
+                    </tr>
+                </thead>
+                <tbody id="tblBebidas">
+                    <!-- Filas de la tabla generadas dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div> 
+</div>

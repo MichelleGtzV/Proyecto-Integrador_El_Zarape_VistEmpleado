@@ -1,0 +1,71 @@
+<div class="container mt-5 mb-5" style="background-color: #FEF2E4; padding: 20px;">
+    <h2 class="text-center mb-4" style="color: #6E4B36;">Gestión de Alimentos</h2>
+    <div class="row">
+        <!-- Formulario derecho -->
+        <div class="col-md-6">
+            <form id="formGestionAlimentos">
+                <div class="mb-3">
+                    <label for="listNombreAlimento" class="form-label">Nombre alimento</label>
+                    <input type="text" class="form-control" id="txtnombreAlimento">
+                </div>
+                <div class="mb-3">
+                    <label for="txtdescripcion" class="form-label">Descripción</label>
+                    <textarea class="form-control" id="txtdescripcion" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="listCategoria" class="form-label">Categoría</label>
+                    <select id="listCategoria" class="form-select" required>
+                        <option value="Seleccionar">Seleccionar</option>
+                        <option value="Platillo Principal">Platillo Principal</option>
+                        <option value="Especialidades">Especialidades</option>
+                        <option value="Sopas y Caldos">Sopas y Caldos</option>
+                        <option value="Postres">Postres</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <!-- Formulario izquierdo -->
+        <div class="col-md-6">
+            <form>
+                <!-- Campos del formulario -->
+                <div class="mb-3">
+                    <label for="precio" class="form-label">Precio:</label>
+                    <input type="number" class="form-control" id="precio">
+                </div>
+                <div class="mb-3">
+                    <label for="txtFoto" class="form-label">Foto:</label>
+                    <input type="file" class="form-control" id="txtFoto">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Botones de agregar, eliminar y modificar -->
+    <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionAlimentos.addAlimento();" id="btnAdd">Agregar</button>
+        <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionAlimentos.deleteAlimento();" id="btnDelete">Eliminar</button>
+        <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionAlimentos.updateAlimento();" id="btnUpdate">Modificar</button>
+    </div>
+    <div class="input-group mt-3">
+        <input type="text" id="txtBusquedaAlimento" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" onclick="moduloGestionAlimentos.searchAlimento();">Buscar</button>
+    </div>
+</div>
+<!-- Se usa una clase contenedor para registro de alimentos -->
+<div class="table-responsive" style="background-color: #FEF2E4; padding: 20px;">
+    <h2 class="text-center mb-4" style="color: #6E4B36;">Registro Alimentos</h2>
+    <table class="table alimento-table" style="color: #6E4B36;">
+        <thead>
+            <tr>
+                <!-- Encabezados de la tabla -->
+                <th>Nombre Platillo</th>
+                <th>Descripción</th>
+                <th>Categoria</th>
+                <th>Precio</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <!-- Cuerpo de la tabla -->
+        <tbody id="tblAlimentos">
+        </tbody>
+    </table>
+</div>

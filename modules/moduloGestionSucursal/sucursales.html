@@ -1,0 +1,110 @@
+
+<div class="container mt-5 mb-5" style="background-color: #FEF2E4; padding: 20px;">
+    <h2 class="text-center mb-4" style="color: #6E4B36;">Gestión de Sucursal</h2>
+    <div class="row">
+        <!-- Formulario derecho -->
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="nombreSucursal" class="form-label">Nombre sucursal:</label>
+                    <input type="text" class="form-control" id="txtNombreSucursal">
+                </div>
+                <div class="mb-3">
+                    <label for="estado" class="form-label">Estado:</label>
+                    <input type="text" class="form-control" id="txtEstado">
+                </div>
+                <div class="mb-3">
+                    <label for="ciudad" class="form-label">Ciudad:</label>
+                    <input type="text" class="form-control" id="txtCiudad">
+                </div>
+                <div class="mb-3">
+                    <label for="colonia" class="form-label">Colonia:</label>
+                    <input type="text" class="form-control" id="txtColonia">
+                </div>
+                <div class="mb-3">
+                    <label for="calle" class="form-label">Calle:</label>
+                    <input type="text" class="form-control" id="txtCalle">
+                </div>
+                <div class="mb-3">
+                    <label for="codigoPostal" class="form-label">Código Postal:</label>
+                    <input type="text" class="form-control" id="txtCodigoPostal">
+                </div>
+            </form>
+        </div>
+        <!-- Formulario izquierdo -->
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="gpsLongitud" class="form-label">GPS Longitud:</label>
+                    <input type="text" class="form-control" id="txtGpsLongitud">
+                </div>
+                <div class="mb-3">
+                    <label for="gpsLatitud" class="form-label">GPS Latitud:</label>
+                    <input type="text" class="form-control" id="txtGpsLatitud">
+                </div>
+                <div class="mb-3">
+                    <label for="horaAbierto" class="form-label">Abierto:</label>
+                    <input type="time" class="form-control" id="txtHoraAbierto">
+                </div>
+                <div class="mb-3">
+                    <label for="horaCerrado" class="form-label">Cerrado:</label>
+                    <input type="time" class="form-control" id="txtHoraCerrado">
+                </div>
+                <div class="mb-3">
+                    <label for="url" class="form-label">URL:</label>
+                    <input type="text" class="form-control" id="txtUrl">
+                </div>
+                <div class="mb-3">
+                    <label for="foto" class="form-label">Foto:</label>
+                    <input type="file" class="form-control" id="txtFoto" accept="foto/*">
+                </div>
+            </form>
+        </div>
+        <form>
+            <br>
+            <!-- Botones de agregar,eliminar y modificar -->
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionSucursal.addSucursal();" id="btnAdd">Agregar</button>
+                <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionSucursal.deleteSucursal();" id="btnDelete">Eliminar</button>
+                <button type="button" class="btn btn-outline-secondary mx-2" onclick="moduloGestionSucursal.updateSucursal();" id="btnUpdate">Modificar</button>
+
+            </div>
+            <br>
+            <!-- Barra de búsqueda -->
+            <div class="input-group mt-3">
+                <input type="text"  id="txtBusquedaSucursal" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="button-addon2" >
+                <button class="btn btn-outline-secondary" type="button" onclick="moduloGestionSucursal.searchSucursal();" >Buscar</button>
+
+            </div>
+        </form>
+
+
+    </div>
+</div>
+<!-- Se usa una clase contenedor para registro de sucursales -->
+<div class="table-responsive" style="background-color: #FEF2E4; padding: 20px;">
+
+    <h2 class="text-center mb-4" style="color: #6E4B36;">Registro Sucursal</h2>
+    <table class="table sucursal-table" style="color: #6E4B36;">
+        <thead>
+            <tr>
+                <!-- Encabezados de la tabla -->
+                <th>Nombre Sucursal</th>
+                <th>Estado</th>
+                <th>Ciudad</th>
+                <th>Colonia</th>
+                <th>Calle</th>
+                <th>Código Postal</th>
+                <th>Gps Longitud</th>
+                <th>Gps Latitud</th>
+                <th>Abierto</th>
+                <th>Cerrado</th>
+                <th>URL</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody id="tblSucursal">
+        </tbody>
+    </table>
+</div>
+

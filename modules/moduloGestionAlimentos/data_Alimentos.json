@@ -1,0 +1,86 @@
+[
+    {
+        "nombreAlimento": "Chilaquiles", 
+        "descripcion": "Hecho con totopos (tortillas cortadas y fritas) bañados en salsa verde o roja, y acompañados tradicionalmente de crema, queso fresco, cebolla y pollo o huevo.",
+        "categoria": "Platillo Principal",
+        "precio": "70", 
+        "foto": "Imagenes/chilaquiles.png"
+    },
+    {
+       "nombreAlimento": "Quesadillas", 
+       "descripcion": "Tortilla, pollo, pico de gallo, salsas acompañadas de crema, queso fresco y cebolla.",
+       "categoria": "Platillo Principal",
+       "precio": "85", 
+       "foto": "Imagenes/quesadilla.png" 
+    },
+    {
+       "nombreAlimento": "Enmoladas", 
+       "descripcion": "Similar a las enfrijoladas pero bañadas en mole, una salsa espesa y compleja hecha de chiles, chocolate y otros ingredientes, y también se acompañan con crema, queso y cebolla.",
+       "categoria": "Especialidades",
+       "precio": "85", 
+       "foto": "Imagenes/enmoladas.png" 
+    },
+    {
+       "nombreAlimento": "Flautas con Papa", 
+       "descripcion": "Tortillas de maíz enrolladas y fritas, rellenas generalmente de pollo o carne, y se sirven acompañadas de lechuga, crema, queso y salsa.",
+       "categoria": "Platillo Principal",
+       "precio": "65", 
+       "foto": "Imagenes/Flautas.png" 
+    },
+    {
+       "nombreAlimento": "Huevos Divorciados", 
+       "descripcion": "Huevos estrellados servidos con dos salsas diferentes: una salsa roja y una salsa verde, separadas por una línea de frijoles refritos con totopos y queso.",
+       "categoria": "Platillo Principal",
+       "precio": "65", 
+       "foto": "Imagenes/huevosDivorsiados.png" 
+    },
+    {
+       "nombreAlimento": "Molletes", 
+       "descripcion": "Bollos de pan cubiertos con frijoles refritos y queso, gratinados al horno, a veces acompañados de pico de gallo, crema y salsa.",
+       "categoria": "Platillo Principal",
+       "precio": "50", 
+       "foto": "Imagenes/Molletes.png" 
+    },
+    {
+       "nombreAlimento": "Fritata de Papa con Queso", 
+       "descripcion": "Incluye papas, huevos, queso rallado (como queso cheddar o mozzarella), cebolla, ajo, sal, pimienta, aceite de oliva y perejil picado (opcional).",
+       "categoria": "Postre",
+       "precio": "65", 
+       "foto": "Imagenes/papa.png"
+    },
+    {
+       "nombreAlimento": "Sincronizadas", 
+       "descripcion": "Similar a una quesadilla, son tortillas de harina rellenas de queso y jamón,con pico de gallo, dobladas por la mitad y luego cocinadas a la plancha.",
+       "categoria": "Platillo Principal",
+       "precio": "60", 
+       "foto": "Imagenes/sincronizada.png"
+    },
+    {
+       "nombreAlimento": "Sopes", 
+       "descripcion": "Tortillas gruesas de maíz con los bordes levantados, cubiertas con frijoles refritos, carne (generalmente pollo o res), lechuga, crema, queso y salsa.",
+       "categoria": "Platillo Principal",
+       "precio": "80", 
+       "foto": "Imagenes/sopes.png"
+    },
+    {
+       "nombreAlimento": "Chiles en nogada", 
+       "descripcion": "Los chiles en nogada incluyen chiles poblanos, carne molida de res o cerdo, manzana, pera, durazno, pasas, almendras, canela, clavo, nuez de Castilla, queso fresco, crema, jerez o brandy (opcional), granos de granada y perejil picado.",
+       "categoria": "Sopas y Caldos",
+       "precio": "45", 
+       "foto": "Imagenes/Chiles.png"
+    },
+    {
+       "nombreAlimento": "Pozole", 
+       "descripcion": "Maíz cacahuazintle, Carne de cerdo (espaldilla, pierna o cabeza), Ajo, Cebolla, Hierbas aromáticas (laurel, orégano), Chiles rojos (guajillo, ancho),Lechuga o repollo (finamente picado),Rábanos (en rodajas delgadas) Cebolla (finamente picada),Orégano, Chiles secos molidos,Limones (cortados en cuartos),Tostadas,(Opcional) Aguacate,(Opcional) Crema y queso fresco",
+       "categoria": "Sopas y Caldos",
+       "precio": "70", 
+       "foto": "Imagenes/Pozole.png"
+    },
+    {
+       "nombreAlimento": "Tamales", 
+       "descripcion": "Tamales rojos: Rellenos de carne de cerdo con salsa de chiles rojos (guajillo, ancho). Tamales verdes: Rellenos de pollo con salsa verde de tomatillo y chile. Tamales dulces: Masa endulzada con azúcar y colorantes, rellenos de frutas o pasas.",
+       "categoria": "Postres",
+       "precio": "20", 
+       "foto": "Imagenes/tamales.png"
+    }
+]

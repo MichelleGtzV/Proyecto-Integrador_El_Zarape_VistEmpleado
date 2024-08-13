@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    background-image: url('../Imagenes/zarape.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la página */
+    background-repeat: repeat-y; /* Repite la imagen verticalmente */
+    background-attachment: fixed; /* Hace que el fondo permanezca fijo al hacer scroll */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el navbar */
+/* Barra de navegacion, */
+.custom-navbar {
+    background-color: rgba(128, 84, 59, 0.7); /* Color #80543B con opacidad del 70% */
+    padding: 10px 0; /* Aumentar el espaciado superior e inferior */
+}
+
+.nav-link {
+    color: #FEF2E4; /* Color de las letras */
+    margin: 0 50px; /* Reducir el espacio entre los enlaces */
+    font-size: 1.25rem; /* Tamaño de las letras */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #FEF2E4; /* Color de las letras al estar seleccionado */
+}
+
+.nav-link.active {
+    background-color: rgba(254, 242, 228, 0.4); /* Color de fondo con opacidad al estar seleccionado */
+    border: 1px solid #FEF2E4; /* Borde al estar seleccionado */
+    padding: 8px 16px; /* Espaciado interno al estar seleccionado */
+    border-radius: 4px; /* Borde redondeado al estar seleccionado */
+}
+
+.nav-link.active a {
+    color: #FEF2E4; /* Color del texto al estar seleccionado */
+}
+
+
+/* Estilos para el formulario y botones */
+.btn-outline-secondary {
+    background-color: rgba(128, 84, 59, 0.9); /* Color #6E4B36 con opacidad del 70% */
+    border:none; /* Color del borde #6E4B36 con opacidad del 70% */
+    color: #FEF2E4; /* Color del texto */
+}
+.sucursal-table thead tr {
+    background-color: #6E4B36; /* Color de fondo del encabezado */
+    color: #FEF2E4; /* Color del texto del encabezado */
+}
+
+.sucursal-table tbody tr {
+    background-color: #FEF2E4; /* Color de fondo de las filas del cuerpo */
+    color: #6E4B36; /* Color del texto de las filas del cuerpo */
+}
+
+.sucursal-table tbody tr:nth-child(even) {
+    background-color: #F9E8D2; /* Color alternativo para filas pares */
+}
+/*  Botones agregar, modificar,eliminar */
+.btn-primary,
+.btn-danger,
+.btn-warning {
+    background-color: rgba(128, 84, 59, 0.9); /* Color de fondo */
+    border:none; 
+    color: #FEF2E4;
+    transition: background-color 0.3s ease;
+}
+/* Espaciado entre los botones */
+.btn {
+    margin: 0 20px;
+} 
+.btn-primary:active,
+.btn-danger:active,
+.btn-warning:active {
+    background-color: rgba(128, 84, 59, 0.9); /* Color café al hacer clic */
+}
+tr:nth-last-of-type(1)>th{
+    background-color: rgba(128, 84, 59, 0.9);
+    color: #FEF2E4;
+    text-align: center;
+}
+td:nth-last-of-type(2)>td
+td:nth-last-of-type(3)>td{
+    background-color: rgba(128, 84, 59, 0.9);
+    padding: 20px;
+}
+.input-textarea{
+    background-color: #FEF2E4;
+    
+}
+

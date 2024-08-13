@@ -1,0 +1,86 @@
+[
+    {
+        "nombreBebida": "Tequila", 
+        "descripcion": "Licor destilado de agave, originario de México.",
+        "categoria": "Bebida Alcoholica",
+        "precio": "60", 
+        "foto": "Imagenes/tequila.png"
+    },
+    {
+        "nombreBebida": "Cafe de olla", 
+        "descripcion": "Café preparado con canela y piloncillo, tradicional de México.",
+        "categoria": "Bebida caliente",
+        "precio": "30", 
+        "foto": "Imagenes/cafeDeOlla.png"
+    },
+    {
+        "nombreBebida": "Agua de jamaica", 
+        "descripcion": "Refresco natural hecho con flores de jamaica.",
+        "categoria": "Refresco",
+        "precio": "20", 
+        "foto": "Imagenes/Agua de Jamaica.png"
+    },
+    {
+        "nombreBebida": "Agua de Horchata", 
+        "descripcion": "Bebida refrescante hecha de arroz, leche, canela y azúcar.",
+        "categoria": "Agua fresca",
+        "precio": "25", 
+        "foto": "Imagenes/aguaDeHorchata.png"
+    },
+    {
+        "nombreBebida": "Jugo de naranja", 
+        "descripcion": "Jugo natural de naranjas frescas.",
+        "categoria": "Jugo",
+        "precio": "15", 
+        "foto": "Imagenes/jugoDeNaranja.png"
+    },
+    {
+        "nombreBebida": "Jugo de betabel", 
+        "descripcion": "Jugo nutritivo hecho con betabel fresco.",
+        "categoria": "Jugo",
+        "precio": "25", 
+        "foto": "Imagenes/jugoDeBetabel.png"
+    },
+    {
+        "nombreBebida": "Agua de Pepino", 
+        "descripcion": "Refresco natural hecho con pepino fresco.",
+        "categoria": "Refresco",
+        "precio": "30", 
+        "foto": "Imagenes/aguaDePepino.png"
+    },
+    {
+        "nombreBebida": "Agua de fresa", 
+        "descripcion": "Refresco natural hecho con fresas frescas.",
+        "categoria": "Refresco",
+        "precio": "25", 
+        "foto": "Imagenes/aguaDeFresa.png"
+    },
+    {
+        "nombreBebida": "Champurrado", 
+        "descripcion": "Bebida caliente de chocolate y maíz, típica de México.",
+        "categoria": "Bebida caliente",
+        "precio": "35", 
+        "foto": "Imagenes/champurrado.png"
+    },
+    {
+        "nombreBebida": "Cerveza", 
+        "descripcion": "Bebida alcohólica fermentada de cereales, típica en muchas culturas.",
+        "categoria": "Bebida alcohólica",
+        "precio": "40", 
+        "foto": "Imagenes/cerveza.png"
+    },
+    {
+        "nombreBebida": "Cerveza negra", 
+        "descripcion": "Variante oscura y más intensa de la cerveza.",
+        "categoria": "Bebida alcohólica",
+        "precio": "45", 
+        "foto": "Imagenes/cervezaNegra.png"
+    },
+    {
+        "nombreBebida": "Michelada", 
+        "descripcion": "Cerveza mezclada con jugo de limón, salsa inglesa, salsa picante y sal.",
+        "categoria": "Bebida alcohólica",
+        "precio": "50", 
+        "foto": "Imagenes/michelada.png"
+    }
+]
