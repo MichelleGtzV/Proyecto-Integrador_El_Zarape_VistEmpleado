@@ -191,7 +191,7 @@ export function updateSucursal() {
             title: 'Actualizado',
             text: 'Se ha actualizado la sucursal'
         });
-    loadTablaSucursal();
+     loadTablaSucursales();
 }
 
 // Función para buscar sucursales 
